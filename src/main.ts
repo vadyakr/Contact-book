@@ -650,7 +650,7 @@ class ContactApp {
       const headerArrow = document.createElement('span');
       headerArrow.className = 'groups-main__arrow';
       headerArrow.innerHTML =
-        '<img src="/images/arrow.svg" width="24" height="24" alt="" />';
+        '<img src="images/arrow.svg" width="24" height="24" alt="" />';
       header.append(headerName, headerArrow);
 
         const contactsInGroup = this.state.contacts.filter(
